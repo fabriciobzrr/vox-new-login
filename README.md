@@ -62,8 +62,8 @@ Este é um projeto de **tela de login estilizada**, desenvolvido com foco em **d
 ## 👨‍💻 Autor
 
 Desenvolvido por **Fabricio Bezerra**  
-📧 [Entre em contato](mailto:fabricio@email.com)  
-🔗 [LinkedIn](https://www.linkedin.com) _(adicione seu perfil)_
+📧 [Entre em contato](mailto:fabriciofrontdev@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/fabriciobzrr)
 
 ---
 
