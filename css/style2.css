@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../img/img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+/* 
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 500px;
+} */
+
+.main-container {
+  max-width: 350px;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  border: 1px solid #eeeeee71;
+  text-align: center;
+  width: 100%;
+  backdrop-filter: blur(10px);
+}
+
+.logo {
+  width: 180px;
+  height: 90px;
+}
+
+.main-title {
+  font-size: 36px;
+  color: #eee;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.box-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #eee;
+  border-radius: 30px;
+  padding: 5px;
+  background-color: transparent;
+}
+
+.box-input input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+.box-input i {
+  margin-right: 10px;
+  color: white;
+}
+
+.box-input input::placeholder {
+  color: white;
+}
+
+.remember-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.remember-me label {
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  accent-color: #ff00d4;
+}
+
+.remember-me a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.remember-me a:hover {
+  text-decoration: underline;
+}
+
+.login-btn {
+  width: 100%;
+  border: none;
+  border-radius: 30px;
+  padding: 12px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 16px;
+  text-shadow: 1px 2px 3px rgba(0, 17, 255, 0.514);
+  font-weight: bold;
+  background: linear-gradient(to right, #b600ce71, #d634ff);
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: linear-gradient(to right, #d634ff, #b600ce71);
+}
+
+.sign-in {
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sign-in a {
+  text-decoration: none;
+  color: white;
+}
+
+.sign-in a:hover {
+  text-decoration: underline;
+}

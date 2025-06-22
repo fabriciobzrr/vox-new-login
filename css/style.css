@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cal Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/img/img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-container {
+  width: 350px;
+  padding: 3rem 2.2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border: 2px solid #cccccc50;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.logo {
+  margin-bottom: 15px;
+  width: 180px;
+  height: 90px;
+}
+
+.main-title {
+  text-align: center;
+  text-transform: capitalize;
+  color: #eee;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.box-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ffffff;
+  padding: 0.625rem;
+  border-radius: 30px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.box-input input {
+  width: 100%;
+  padding: 10px 5px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.fa-user,
+.fa-lock {
+  color: #eee;
+}
+
+.box-input input::placeholder {
+  color: #eee;
+}
+
+.remember-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.remember-me input[type="checkbox"] {
+  margin-right: 5px;
+  accent-color: #c64bff;
+}
+
+.remember-me a {
+  text-decoration: none;
+  color: white;
+}
+
+.remember-me a:hover {
+  text-decoration: underline;
+}
+
+.login-btn {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #d780ff, #772a9b);
+  color: white;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: linear-gradient(to right, #772a9b, #d780ff);
+}
+
+.sign-in {
+  color: white;
+  font-size: 14px;
+}
+
+.sign-in a {
+  text-decoration: none;
+  color: white;
+}
+
+.sign-in a:hover {
+  text-decoration: underline;
+}

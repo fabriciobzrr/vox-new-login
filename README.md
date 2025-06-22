@@ -1,29 +1,35 @@
-🧩 Recursos
-Campos de login com ícones personalizados (usuário e senha)
 
-Efeito de vidro com backdrop-filter e fundo com imagem de alta qualidade
+# 🔐 Tela de Login - Projeto VOX
 
-Estilização customizada para preenchimento automático de inputs
+Este é um projeto de **tela de login estilizada**, desenvolvido com foco em **design moderno, acessibilidade e responsividade**. A interface utiliza uma paleta de tons violetas com visual translúcido e toques de tecnologia, refletindo a identidade da marca **VOX**.
 
-Botão com gradiente e efeito hover suave
+![Preview do Projeto](./img/logo1.png)
 
-Links para "lembrar-me", recuperação de senha e cadastro
+---
 
-Layout responsivo e centralizado, ideal para dispositivos móveis e desktops
+## 🧩 Recursos
 
-🛠️ Tecnologias utilizadas
-HTML5 semântico
+- 🎨 Estilo moderno com **efeito glassmorphism**
+- 🧠 Ícones personalizados com **Font Awesome**
+- 📱 Layout **responsivo** para dispositivos móveis
+- 🌈 Botão com **gradiente animado**
+- 🔐 Campo de login com **efeito de preenchimento automático** customizado
+- 🔗 Links para "Lembrar-me", "Esqueci minha senha" e "Cadastre-se"
 
-CSS3 com flexbox e efeitos visuais modernos
+---
 
-Font Awesome para ícones
+## 🛠️ Tecnologias Utilizadas
 
-Favicon e logotipo personalizados
+- **HTML5** semântico
+- **CSS3** com Flexbox, gradientes e backdrop-filter
+- **Font Awesome** para ícones
+- **Imagens personalizadas** para logotipo, fundo e favicon
 
-📁 Estrutura
-css
-Copiar
-Editar
+---
+
+## 📁 Estrutura de Pastas
+
+```
 📁 projeto-login-vox/
 ├── index.html
 ├── css/
@@ -31,6 +37,36 @@ Editar
 ├── img/
 │   ├── logo1.png
 │   ├── favicon1.png
-│   └── img.jpg (imagem de fundo)
-💡 Autor
-Desenvolvido por Fabricio Bezerra — Projeto pessoal com fins educacionais e criativos.
+│   └── img.jpg
+```
+
+---
+
+## 📷 Demonstração
+
+![Tela de Login - VOX](./img/img.jpg)
+
+---
+
+## 📌 Como Usar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/projeto-login-vox.git
+   ```
+2. Abra o arquivo `index.html` no navegador.
+3. Personalize conforme necessário!
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Fabricio Bezerra**  
+📧 [Entre em contato](mailto:fabricio@email.com)  
+🔗 [LinkedIn](https://www.linkedin.com) _(adicione seu perfil)_
+
+---
+
+## ⚠️ Licença
+
+Este projeto é livre para uso educacional. Sinta-se à vontade para adaptar e melhorar! 🚀
